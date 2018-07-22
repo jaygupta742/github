@@ -1,0 +1,107 @@
+body{
+    background: #3a81ba;
+}
+.container{
+    margin: 5%;
+}
+.lab{
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.input{
+    width: 90%;
+    min-height: 30px;
+    border: black 1px solid;
+    border-radius: 12px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    padding-left: 20px;
+}
+.but{
+    height: 30px;
+    width: 80px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color:#aeaeae;
+    position:relative;
+    left: 50%;
+    
+}
+.box2{
+    border: black 2px solid;
+    padding: 10%;
+}
+img{
+    height: 280px;
+    border: black 2px solid;
+}
+.login{
+    margin-left: 20px;
+}
+.email{
+   margin-left: 20px;
+} 
+.box3{
+    border: black 2px solid;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    width: 70%;
+    position: relative;
+    left: 300px;
+    bottom: 180px;
+}
+.box4{
+    border: black 2px solid;
+    border-top:none; 
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 70%;
+    position: relative;
+    left: 300px;
+    bottom: 185px;
+    padding-top: 3px;
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color: #0ee3e4;
+    }
+    .lab{
+        position: relative;
+        left: 38%;
+    }
+    .but{
+        position: relative;
+        left: 38%; 
+    }
+    img{
+        margin-top: 10%;
+        margin-left: 10%;
+        height: 280px;
+        border: black 2px solid;
+    }
+    .box3{
+        border: black 2px solid;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        width: 70%;
+        position: relative;
+        left: 16%;
+        bottom: 0%;
+        margin-top: 10%;
+    }
+    .box4{
+        border: black 2px solid;
+        border-top:none; 
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        width: 70%;
+        position: relative;
+        left: 16%;
+        bottom: 0%;
+        padding-top: 3px;
+    }
+  }
